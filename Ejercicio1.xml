@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<equipos>
+    <nombre_equipo>Real Madrid</nombre_equipo>
+    <entrenador>Carlo Ancelotti</entrenador>
+    <jugadores>
+        <nombre_jugador>Tihbaut Courtois</nombre_jugador>
+        <nombre_jugador>Luka Modric</nombre_jugador>
+        <nombre_jugador>Karim Benzema</nombre_jugador>
+        <nombre_jugador>Vinícius Júnior</nombre_jugador>
+        <nombre_jugador>Antonio Rüdiger</nombre_jugador>
+    </jugadores>
+</equipos>
