@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+    <!ELEMENT numeros (#PCDATA)>
+]>
+<numeros>
+    52
+</numeros>
+
+<!-- ERRORES ENCONTRADOS -->
+<!-- 1. El DTD define el elemento numero, pero en la parte XML está como numeros, deben coincidir para ser validos--> 
+<!-- 2. El CDATA no existe, debería ser #PCDATA-->
