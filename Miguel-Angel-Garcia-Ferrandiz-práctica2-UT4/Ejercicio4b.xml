@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ligaDeFutbol [
+    <!ELEMENT ligaDeFutbol (partido*)>
+    <!ELEMENT partido (local, visitante)>
+    <!ELEMENT local (#PCDATA)>
+    <!ELEMENT visitante (#PCDATA)>
+    <!ATTLIST local goles CDATA #REQUIRED>
+    <!ATTLIST visitante goles CDATA #REQUIRED>
+]>
+
+<ligaDeFutbol>
+    <partido>
+        <local goles="0">Real Madrid</local>
+        <visitante goles="1">Barcelona</visitante>
+    </partido>
+    <partido>
+        <local goles="3">Hércules</local>
+        <visitante goles="1">Albacete</visitante>
+    </partido>
+    <partido>
+        <local goles="4">Balmis</local>
+        <visitante goles="12">IES</visitante>
+    </partido>
+</ligaDeFutbol>
+
+<!-- ERRORES -->
+<!-- 1. En la línea 8, debería ser un ATTLIST en vez de un ELEMENT-->
+<!-- 2. En la línea 11, la etiqueta debe ser ligaDeFutbol, no liga -->
+<!-- 3. En la línea 22, faltaba la información del visitante-->
