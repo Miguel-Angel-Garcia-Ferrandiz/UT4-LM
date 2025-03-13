@@ -1,0 +1,43 @@
+<!DOCTYPE Band [
+<!ELEMENT Band (NameBand, (History | Awards)?, Member+, Instrument*)>
+<!ELEMENT NameBand (#PCDATA)>
+<!ELEMENT History (#PCDATA)>
+<!ELEMENT Awards (#PCDATA)>
+<!ELEMENT Member (NameMember, Role, Joined)>
+    <!ATTLIST Member BDate NMTOKEN #IMPLIED>
+    <!ATTLIST Member Plays IDREF #REQUIRED>
+<!ELEMENT NameMember (#PCDATA)>
+<!ELEMENT Role (#PCDATA)>
+<!ELEMENT Joined EMPTY>
+    <!ATTLIST Joined YEAR CDATA #REQUIRED>
+<!ELEMENT Instrument (#PCDATA)>
+    <!ATTLIST Instrument Id ID #REQUIRED>
+]>
+
+<Band>
+    <NameBand>Metallica</NameBand>
+    <History>Formada en 1981, Metallica es una de las bandas de heavy metal más influyentes y exitosas de todos los tiempos.</History>
+    <Member BDate="1963-12-26" Plays="guitar">
+        <NameMember>James Hetfield</NameMember>
+        <Role>Vocalista y Guitarrista Rítmico</Role>
+        <Joined YEAR="1981"/>
+    </Member>
+    <Member BDate="1962-11-18" Plays="drums">
+        <NameMember>Lars Ulrich</NameMember>
+        <Role>Baterista</Role>
+        <Joined YEAR="1981"/>
+    </Member>
+    <Member BDate="1964-02-10" Plays="bass">
+        <NameMember>Cliff Burton</NameMember>
+        <Role>Bajista</Role>
+        <Joined YEAR="1982"/>
+    </Member>
+    <Member BDate="1962-11-18" Plays="guitar">
+        <NameMember>Kirk Hammett</NameMember>
+        <Role>Guitarrista Principal</Role>
+        <Joined YEAR="1983"/>
+    </Member>
+    <Instrument Id="guitar">Guitarra Eléctrica</Instrument>
+    <Instrument Id="drums">Batería</Instrument>
+    <Instrument Id="bass">Bajo Eléctrico</Instrument>
+</Band>
