@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>ELPAIS.com - Sección Tecnología</title>
+        <link>http://foo.com/ELPAIS-SeccionTecnologia</link>
+        <description>Noticias de tecnología de EL PAÍS</description>
+
+        <item>
+            <title>Sony empieza a reabrir las plataformas asaltadas</title>
+            <link>http://foo.com/ELPAIS-SeccionTecnologia/noticia1</link>
+            <description>Sony ha empezado a restaurar los servicios de la PlayStation Network cuyo
+                ataque el mes pasado comprometió los datos de 70 millones de jugadores. También lo
+                anuncia para Sony Online.</description>
+            <pubDate>2025/03/13 07:54:00</pubDate>
+            <author>EL PAÍS</author>
+        </item>
+
+        <item>
+            <title>El código detrás del tuit</title>
+            <link>http://foo.com/ELPAIS-SeccionTecnologia/noticia2</link>
+            <description>En el reino de tuitilandia cada día se envían algo más de 50 millones de
+                tuits (frente a 200.000 millones de correos electrónicos). A 140 caracteres...</description>
+            <pubDate>2025/03/13 03:47:00</pubDate>
+            <author>RAFAEL CLEMENTE</author>
+        </item>
+
+        <item>
+            <title>Google maneja el ruido en la Red para ocultar sus problemas</title>
+            <link>http://foo.com/ELPAIS-SeccionTecnologia/noticia3</link>
+            <description>Blogger no es una plataforma de blogs cualquiera. La empresa de medición
+                comScore les otorgaba en marzo de este año 342,7 millones de usuarios...</description>
+            <pubDate>2025/03/13 03:47:00</pubDate>
+            <author>ADRIÁN SEGOVIA</author>
+        </item>
+
+    </channel>
+</rss>
